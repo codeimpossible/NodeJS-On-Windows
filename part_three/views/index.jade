@@ -1,0 +1,13 @@
+!!! 5
+html(lang='en')
+  head
+    title= title
+  body
+    h1= "Hello World!"
+    h2= date
+    script(src="/socket.io/socket.io.js")
+    script
+      var socket = io.connect('http://localhost:8000');
+      socket.on('disconnect', function (data) {
+        window.location.reload();
+      });
