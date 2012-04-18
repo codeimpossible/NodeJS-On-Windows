@@ -1,0 +1,9 @@
+{
+  "name": "nodejs-on-windows-part-three",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "2.5.9",
+    "jade": "0.2.x",
+    "socket.io": "0.9.x"
+  }
+}

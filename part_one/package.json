@@ -1,0 +1,7 @@
+{
+  "name": "nodejs-on-windows-part-one",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "2.5.9"
+  }
+}
